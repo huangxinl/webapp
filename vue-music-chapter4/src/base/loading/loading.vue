@@ -1,6 +1,6 @@
 <template>
   <div class="loading">
-    <img width="24" height="24" src="./loading.gif">
+    <img width="24" height="24" src="./loading1.gif">
     <p class="desc">{{title}}</p>
   </div>
 </template>
@@ -9,14 +9,13 @@
     props: {
       title: {
         type: String,
-        default: '正在载入...'
+        default: '玩命加载中...'
       }
     }
   }
 </script>
 <style scoped lang="stylus" rel="stylesheet/stylus">
   @import "~common/stylus/variable"
-
   .loading
     width: 100%
     text-align: center

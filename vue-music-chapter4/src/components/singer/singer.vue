@@ -82,7 +82,7 @@
         return hot.concat(ret)
       },
       ...mapMutations({
-        setSinger: 'SET_SINGRE'
+        setSinger: 'SET_SINGER'
       })
     },
     components: {

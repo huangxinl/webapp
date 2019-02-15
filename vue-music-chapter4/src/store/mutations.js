@@ -1,7 +1,7 @@
 import * as type from './mutation-types'
 
 const mutations = {
-  [type.SET_SINGRE](state, singer) {
+  [type.SET_SINGER](state, singer) {
     state.singer = singer
   },
   [type.SET_PLAYING_STATE](state, flag) {
@@ -16,7 +16,7 @@ const mutations = {
   [type.SET_PLAY_MODE](state, mode) {
     state.mode = mode
   },
-  [type.SET_CURREN_INDEX](state, index) {
+  [type.SET_CURRENT_INDEX ](state, index) {
     state.currentIndex = index
   }
 }
